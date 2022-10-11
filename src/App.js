@@ -66,7 +66,7 @@ function App() {
 
   return (
     <div>
-      <Student />
+      <Student students={students}/>
     </div>
   );
 }
