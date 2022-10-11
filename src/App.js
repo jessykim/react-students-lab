@@ -64,14 +64,12 @@ function App() {
   ]
 
   return (
-    <div>
-      <h1>Students</h1>
+    <>
+      <h1>Student List</h1>
       {students.map(student => 
-        <h2>
-          <Student key={student.name} student={student} />
-        </h2>
+        <Student key={student.name} student={student} />
       )}
-    </div>
+    </>
   );
 }
 

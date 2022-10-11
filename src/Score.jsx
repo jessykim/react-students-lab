@@ -1,6 +1,9 @@
 const Score = (props) => {
   return ( 
-    <h1>score!</h1>
+    <>
+      <div>Score: {props.score.score}</div>
+      <div>Date: {props.score.date}</div>
+    </>
   );
 }
 
