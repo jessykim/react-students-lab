@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Student from './Student';
 
@@ -66,7 +65,12 @@ function App() {
 
   return (
     <div>
-      <Student students={students}/>
+      <h1>Students</h1>
+      {students.map(student => 
+        <h2>
+          <Student key={student.name} student={student} />
+        </h2>
+      )}
     </div>
   );
 }

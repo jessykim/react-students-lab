@@ -3,10 +3,8 @@ import Score from "./Score";
 const Student = (props) => {
   return ( 
     <>
-      <h1>Students</h1>
-      {props.students.map(student => 
-        <h2>{student.name}: {student.bio}</h2>
-      )}
+      <div>{props.student.name}</div>
+      <div>{props.student.bio}</div>
       <Score />
     </>
   );
