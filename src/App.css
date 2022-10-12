@@ -1,12 +1,30 @@
 div {
   border: 1px solid black;
-  padding: 5px;
+  padding: 10px;
 }
 
 h1 {
   text-align: center;
 }
 
+p {
+  margin: 5px;
+  font-size: 12px;
+}
+
+.score-info {
+  display: flex;
+}
+
 .student-container {
   margin: 10px;
+}
+
+#name {
+  font-weight: 700;
+}
+
+#bio {
+  font-size: 15px;
+  font-style: italic;
 }
